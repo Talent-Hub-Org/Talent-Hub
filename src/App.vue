@@ -41,42 +41,42 @@ export default {
           'TES',
           'Chris',
           require('./assets/robot3.png'),
-          ['python', 'software development', 'career development']
+          ['kanban', 'scrum']
         ),
         new Mentor(
           'React.js',
           'Sales',
           'Tim',
           require('./assets/robot4.jpg'),
-          ['javascript', 'sales', 'interpersonal development']
+          ['mentoring', 'planning', 'people management']
         ),
         new Mentor(
           'Angular.js',
           'Marketing',
           'Sam',
           require('./assets/robot3.png'),
-          ['ruby', 'software development', 'career development']
+          ['kanban', 'scrum', 'mentoring', 'planning', 'people management', 'c#']
         ),
         new Mentor(
           'Ember.js',
           'Engine Room',
           'Rachel',
           require('./assets/robot4.jpg'),
-          ['career development']
+          ['people management','tech lead', 'python', 'java', 'javascript']
         ),
         new Mentor(
           'Meteor.js',
           'Quality Engineering',
           'Chris',
           require('./assets/robot3.png'),
-          ['scrum master', 'career development']
+          ['kanban', 'people management','tech lead', 'ruby', 'c#']
         ),
         new Mentor(
           'Aurelia',
           'Boss',
           'Tim',
           require('./assets/robot4.jpg'),
-          ['ansible', 'software development', 'skill development']
+          ['kanban', 'scrum', 'mentoring','python', 'java', 'javascript', 'ruby']
         )
       ]
     }
@@ -89,6 +89,7 @@ export default {
       });
     }
   },
+  // #TODO: once an api is made to return data, use this service
   // created() {
   //   axios
   //     .get(`http://jsonplaceholder.typicode.com/posts`)
